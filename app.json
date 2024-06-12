@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "sam-expo-app",
+    "name": "Sam App",
     "slug": "sam-expo-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samskinner.samexpoapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "666e5bf3-401b-4c3b-b483-dff2a8350a30"
+      }
     }
   }
 }
